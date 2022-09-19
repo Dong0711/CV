@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --font-color:whitesmoke;
+}
+html {
+    font-size: 100%;
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    margin: 2rem auto;
+    width: 90%;
+    height: 200rem;
+    position: relative;
+    background-color: var(--font-color);
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    border-radius: 20px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    margin: -1rem;
+    background-image: linear-gradient(to left bottom, #2979ff, #07a787);
+    border-radius: inherit;
+}
+
+header {
+
+    margin: 2rem auto;
+    margin-top: 10rem;
+    height: 10rem;
+    width: 90%;
+    background-color: #07a787;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, #2979ff, #07a787);
+    padding: 2rem 3rem;
+
+    position: relative;
+
+}
+
+header img {
+    transform: translateY(-28%);
+    border-radius: 1rem;
+    box-shadow: 7px 7px rgba(170, 169, 169, 0.7);
+}
+
+header .info {
+    width: 70%;
+    float: right;
+    color: var(--font-color);
+    transform: translateY(-1rem);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+#header-bottom {
+    width: 72%;
+    float: right;
+    margin-left: 28%;
+}
+
+#header-bottom li {
+    display: inline-block;
+    width: 24%;
+}
+
+#header-bottom a {
+    text-decoration: none;
+    color: black;
+}
+
+#main .box {
+    width: 90%;
+    height: 21rem;
+    background-image: linear-gradient(to left, #2979ff, #07a787);
+    margin: 3rem auto;
+    border-radius: 1rem;
+    padding: 3rem 4rem;
+    color: var(--font-color);
+
+    
+    /* font-size: 1.5rem; */
+}
+
+#main .target-profession {
+margin-top: 10rem;
+padding-left: 3rem;
+padding-top: 3rem; 
+}
+
+#main .box li {
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+#main .skills{
+    height:23rem ;
+}
+#main p {
+    display: inline-block;
+    width: 15rem;
+}
+
+#main .point {
+    width: 20rem;
+    height: 1rem;
+    background-color: var(--font-color);
+    display: inline-block;
+    border-radius: 1rem;
+    /* z-index: 1; */
+}
+#main h1{
+    text-transform: uppercase;
+    
+}
+#main .c {
+    /* z-index: 1; */
+    width: 10rem;
+    height: 1rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+    border-radius: 1rem;
+}
+
+#main .html {
+    /* z-index: 1; */
+    width: 13rem;
+    height: 1rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+    border-radius: 1rem;
+}
+
+#main .css {
+    /* z-index: 1; */
+    width: 15rem;
+    height: 1rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+    border-radius: 1rem;
+}
+
+#main .java {
+    /* z-index: 1; */
+    width: 1rem;
+    height: 1rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+    border-radius: 1rem;
+}
+#main .english {
+    /* z-index: 1; */
+    width: 2rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+
+    height: 1rem;
+    background-image: linear-gradient(to left, #333, rgba(59, 59, 59, 0.7));
+    border-radius: 1rem;
+}
+#main .education{
+    height: 31rem;
+
+}
+#main .education h1{
+    position: relative;
+}
+#main  .line{
+    width: 70%;
+    /* display: inline-block; */
+    height: 2px;
+    background-color: var(--font-color);
+    float: right;
+    transform: translate(-7rem ,1.5rem);
+position: relative;
+}
+#main  .date{
+    /* float: right; */
+    /* display: inline-block; */
+    text-align: end;
+    position: absolute;
+    right: -8rem;
+    top: -1.2rem;
+    color: var(--font-color);
+}
+#main  a{
+    color: var(--font-color);
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+#main .education li{
+    list-style: none;
+}
+#main .f8 .line{width: 84%;}
+#main  a{
+    color:rgba(255, 150, 165,0.8) ;
+    padding-left: 1rem;
+}
+#main .activate{
+      height:18rem ;
+}
+#main .project{
+    height: 27rem;
+}
+#main .project  h3{
+    color:rgba(255, 150, 165,0.8) ;
+    padding-left: 1rem;
+}
+#main .project .tuoitre{
+    width: 75%;
+}
+#main .interests{
+    height: 27rem;
+}
