@@ -233,11 +233,11 @@ position: relative;
 }
 .ti-themify-logo{
     font-size: 4rem;
-    transform: translateX(-2rem);
+  
     
 }
 .make-with p{
-    line-height: 4  rem;
+    line-height: 4rem;
     float:  left;
 
 }
