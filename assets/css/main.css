@@ -225,3 +225,19 @@ position: relative;
 #main .interests{
     height: 22.5rem;
 }
+.make-with{
+    font-size: 1rem;
+    float:right;
+    margin-right:4rem;
+    margin-top: 3rem;
+}
+.ti-themify-logo{
+    font-size: 4rem;
+    transform: translateX(-2rem);
+    
+}
+.make-with p{
+    line-height: 4  rem;
+    float:  left;
+
+}
